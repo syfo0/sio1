@@ -19,9 +19,6 @@ def piste_ouverte(debut, fin):
     return valide
 
 def parcours_valide(parcours):
-    n=len(parcours)
-    i=0
-    while i<n-1 and piste_ouverte(parcours[i],parcours[i+1]):
-        i=i+1
-    return i==n-1
+    # fonction à compléter
+    return
 
